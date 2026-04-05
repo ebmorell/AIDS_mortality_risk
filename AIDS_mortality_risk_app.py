@@ -29,7 +29,7 @@ import streamlit as st
 # ============================================================
 # BASELINE SURVIVAL — REPLACE THIS VALUE (see header above)
 # ============================================================
-BASELINE_SURVIVAL_5Y = 0.85   # PLACEHOLDER — replace with S0(5) from R
+BASELINE_SURVIVAL_5Y = 0.989024  # PLACEHOLDER — replace with S0(5) from R
 
 
 # ============================================================
@@ -39,19 +39,19 @@ BASELINE_SURVIVAL_5Y = 0.85   # PLACEHOLDER — replace with S0(5) from R
 # ============================================================
 
 COEFFS_SUBGROUP = {
-    "Reference subgroup":                        0.00000,
-    "Cervical cancer":                           0.81531,
-    "HIV encephalopathy":                       -0.09520,
-    "Fungal infections":                        -0.07313,
-    "Non-Hodgkin lymphoma":                      0.82300,
-    "Mycobacterial infections":                 -0.27919,
-    "Other opportunistic infections":           -0.51912,
-    "Pneumocystis pneumonia":                   -0.73950,
-    "Kaposi sarcoma":                           -0.19511,
-    "Viral infections":                         -0.06626,
-    "Wasting syndrome":                          0.07644,
-    "Progressive multifocal leukoencephalopathy": 0.57226,
-    "Toxoplasmosis":                             0.30942,
+    "Pneumocystis pneumonia (reference)":        0.00000,
+    "Bacterial infections":                      0.73950,
+    "Cervical cancer":                           1.55481,
+    "HIV encephalopathy":                        0.64430,
+    "Fungal infections":                         0.66637,
+    "Non-Hodgkin lymphoma":                      1.56251,
+    "Mycobacterial infections":                  0.46031,
+    "Other opportunistic infections":            0.22038,
+    "Kaposi sarcoma":                            0.54439,
+    "Viral infections":                          0.67324,
+    "Wasting syndrome":                          0.81594,
+    "Progressive multifocal leukoencephalopathy": 1.31177,
+    "Toxoplasmosis":                             1.04892,
 }
 
 COEFFS_SEX = {
